@@ -1,7 +1,5 @@
 @media (max-width : 800px) {
-    body {
-        background: blue;
-    }
+  
     .header{
         align-content: center;
         justify-content: center;
