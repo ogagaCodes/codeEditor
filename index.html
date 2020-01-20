@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="ymediaquery.css">
+    <link href="jquery-ui.css" rel="stylesheet">
+
+    <title>Code Editor</title>
+</head>
+<body>
+     
+    <div class="header"> 
+            <div class="files">EXPLORER</div>
+            <div class="editorLogo">Text Editor</div>
+            <div class="btnContainer">
+                <div class="navItems htmlbtn" id="html">Html</div>
+                <div class="navItems" id="css">CSS</div>
+                <div class="navItems" id="javascript">Javascript</div>
+                <div class="navItems" id="console">Console</div>
+                <div class="navItems" id ="output">Output</div>
+            </div>
+            <div class="login">
+                <button class="loginbtn" type="submit">CHANGE THEMES</button>
+            </div>
+    
+        </div>
+        
+    
+            <div class="bodycnt">
+            <textarea id="htmlArea" class="panel">HTML<p>me codes</p></textarea>
+            <textarea id="cssArea" class="hidden panel"> p {color:red;}</textarea>
+            <textarea id="javascriptArea" class="hidden panel"></textarea>
+            <textarea id="consoleArea" class="hidden panel">console</textarea>
+            <iframe src="" frameborder="0" class="output panel" id="outputArea"></iframe>
+            </div>
+            
+    
+        
+    
+    
+
+
+
+     <script src="jquery.js"></script>
+     <script src="jquery-ui.min.js"></script>
+     <script src="main.js"></script>
+     <script src="autocomplete.js"></script>
+
+</body>
+</html>

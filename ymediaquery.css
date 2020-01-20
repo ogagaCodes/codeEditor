@@ -1,0 +1,40 @@
+@media (max-width : 800px) {
+    body {
+        background: blue;
+    }
+    .header{
+        align-content: center;
+        justify-content: center;
+        text-align: center;
+        background-color: lightgrey;
+        width:100%;
+        height:2.3em;
+        
+        border-bottom:  1px solid black;
+    }
+    .btnContainer {
+        align-content: center;
+        justify-content: center;
+        width:auto;
+        margin:0 auto;
+        height: auto;
+        padding: 1px 1px;
+        
+    }
+    
+    .navItems {
+        text-align:center;
+        font-size: auto;
+        float:left;
+        padding: 0.2px;
+        width:auto;
+        border:1px solid black;
+        border-left:none;
+        border-bottom:none;
+        line-height: 2em;
+    }
+    .panel {
+        float:left;
+        width:2em;
+    }
+}
