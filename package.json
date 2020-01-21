@@ -1,0 +1,19 @@
+{
+  "name": "online_editor",
+  "version": "1.0.0",
+  "description": "An online code Editor",
+  "main": "index.php",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ogagaCodes/codeEditor.git"
+  },
+  "author": "OGAGA ADJARO",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ogagaCodes/codeEditor/issues"
+  },
+  "homepage": "https://github.com/ogagaCodes/codeEditor#readme"
+}
