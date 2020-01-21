@@ -11,15 +11,19 @@
     <title>Code Editor</title>
 </head>
 <body>
-     
+    <div class="editorLogo">Text Editor</div>
     <div class="header"> 
+        <div class="right-items">
+            
             <div class="files">EXPLORER</div>
-            <div class="editorLogo">Text Editor</div>
+            
+        </div>
+            
             <div class="btnContainer">
                 <div class="navItems htmlbtn" id="html">Html</div>
                 <div class="navItems" id="css">CSS</div>
                 <div class="navItems" id="javascript">Javascript</div>
-                <div class="navItems" id="console">Console</div>
+                
                 <div class="navItems" id ="output">Output</div>
             </div>
             <div class="login">
@@ -33,10 +37,14 @@
             <textarea id="htmlArea" class="panel">HTML<p>me codes</p></textarea>
             <textarea id="cssArea" class="hidden panel"> p {color:red;}</textarea>
             <textarea id="javascriptArea" class="hidden panel"></textarea>
-            <textarea id="consoleArea" class="hidden panel">console</textarea>
+            
             <iframe src="" frameborder="0" class="output panel" id="outputArea"></iframe>
             </div>
-            
+            <div class="clear"></div>
+            <div class="mainConsole">
+                <div class="console" id="consoleBtn"> Open Console</div>
+                <div id="consolePanel" class="console2">console</div>
+            </div>
     
         
     

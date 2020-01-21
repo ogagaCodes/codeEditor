@@ -2,6 +2,13 @@ body{
     padding:0;
     margin:0;
 }
+.right-items {
+    float:left;
+    display: flex;
+    flex-direction: column;
+    height:auto;
+    width: auto;
+}
 .header{
     align-content: center;
     justify-content: center;
@@ -14,7 +21,7 @@ body{
 }
 
 .files {
-    float: left;
+    display:flex;
     line-height: 2em;
     padding: 2px;
     margin-right:2em;
@@ -23,7 +30,7 @@ body{
      border-bottom:none;
 }
  .editorLogo {
-     float:left;
+     display:flex;
      line-height: 2em;
      font-weight: 900;
      padding:2px;
@@ -111,6 +118,24 @@ body{
  }
 
  iframe {
-     height:44em;
+     height:36.9em;
      border: 1px solid grey;
  }
+
+ .mainConsole {
+     width:100%;
+     height:auto;
+ }
+
+.console {
+    background-color: grey;
+    border: indigo;
+    width:98%;
+    height:80%;
+    padding: 1%;
+    cursor: pointer;
+}
+.console2{
+   width:100%;
+   height:auto;
+}
