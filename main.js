@@ -24,7 +24,7 @@ $(".navItems").click(function(){
    let areaId = $(this).attr("id") + "Area";
      $("#" + areaId).toggleClass("hidden");
 
-     let numberOfActiveAreas = 5 - $('.hidden').length;
+     let numberOfActiveAreas = 4 - $('.hidden').length;
      $(".panel").width(($(window).width() / numberOfActiveAreas) - 10);
 })
 
