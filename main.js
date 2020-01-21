@@ -34,7 +34,9 @@ $("iframe").contents().find("html").html($("#htmlArea").val());
 $("textarea").on('change keyup paste', function(){
     updateArea();
 });
+  
 
 $("#consoleBtn").click(function(){
-    $("#consolePanel").toggle("fast");
+   
+    $("#consolePanel").toggle();
 });
